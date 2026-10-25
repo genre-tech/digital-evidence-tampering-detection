@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+!frontend/dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+
+# Testing caches & logs
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ephemeral forensic runtime outputs (keep directory structure and baselines)
+output/uploads/*
+!output/uploads/02aa7ba8_WIN_20261026_01_34_17_Pro.jpg
+!output/uploads/.gitkeep
+
+output/static/*
+!output/static/sample_contract.pdf
+!output/static/.gitkeep
+
+output/reports/*
+!output/reports/.gitkeep
+
+output/benchmark_reports/*
+!output/benchmark_reports/.gitkeep
+
+output/test_debug/
+output/test_images/
